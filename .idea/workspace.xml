@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9976e1c9-539f-4788-9caf-95b730dc383c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Compositions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Data_processing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Decorators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Encapsulation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Exceptions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/FunctionTasks2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/FunctionsTasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Generators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Inheritance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Polymorphism/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/RandomAndTime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/SetsTasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Работа с CSV.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_internal/req/constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/distlib/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/distlib/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/pygments/formatters/_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/pygments/formatters/_mapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/pygments/lexers/_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/pygments/lexers/_mapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/rich/traceback.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pip/_vendor/rich/traceback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/command/editable_wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/command/editable_wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/setuptools/discovery.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FirstSem/PythonTasks" />
+  </component>
+  <component name="ProjectId" id="2Lm9retJtCHPERSUSw62DkOSlj7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9976e1c9-539f-4788-9caf-95b730dc383c" name="Changes" comment="" />
+      <created>1676465591726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676465591726</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
