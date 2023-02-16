@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9976e1c9-539f-4788-9caf-95b730dc383c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/Compositions/__init__.py" afterDir="false" />
@@ -19,6 +22,20 @@
       <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/Lib/site-packages/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FirstSem/PythonTasks/dictTASKS/venv/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/Start.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/Start.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/warn-Start.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/Game_!/build/Start/xref-Start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSem/PythonTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task1.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task1.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstSem/PythonTasks/CSV/Task2.py" beforeDir="false" />
@@ -42,13 +59,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FirstSem/PythonTasks" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Lm9retJtCHPERSUSw62DkOSlj7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecondSem/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondSem/tests/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testing" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
