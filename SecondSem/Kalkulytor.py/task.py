@@ -111,13 +111,11 @@ class Calculator(QWidget):
             self.display.setText(current_text + digit)
 
     def operation_clicked(self, operation):
-        # Сохраняем операнды и операцию
         self.operand1 = float(self.display.text())
         self.operation = operation
         self.display.setText('0')
 
     def clear(self):
-        # Сбрасываем все значения
         self.operand1 = None
         self.operand2 = None
         self.operation = None
@@ -139,16 +137,13 @@ class Calculator(QWidget):
         self.operand1 = self.result
 
     def memory_store(self):
-        # сохраняем текущее значение на экране в память
         self.memory_value = float(self.display.text())
 
     def memory_recall(self):
-        # выводим значение из памяти на экран
         if self.memory_value is not None:
             self.display.setText(str(self.memory_value))
 
     def memory_clear(self):
-        # очищаем значение в памяти
         self.memory_value = None
 
 if __name__ == '__main__':
