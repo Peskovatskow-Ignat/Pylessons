@@ -1,35 +1,19 @@
-import telegram
-from telegram.ext import Updater, CommandHandler
+import telebot
+import openai
 
-# Функция-обработчик команды start
-def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Привет! Я бот, который может найти ID пользователя в Telegram. Просто отправь мне его имя пользователя.")
+bot = telebot.TeleBot("6122592866:AAF1vfrccpPgrM4DQBqXD6rx1IWtaLXS9qk")
+openai.api_key = "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"
 
-# Функция-обработчик команды find_id
-def find_id(update, context):
-    # Получаем имя пользователя из сообщения
-    username = context.args[0]
-    # Получаем информацию о пользователе
-    user = context.bot.get_chat(username)
-    # Отправляем ID пользователя
-    context.bot.send_message(chat_id=update.effective_chat.id, text=f"ID пользователя {username} - {user.id}")
+@bot.message_handler(content_types=["text"])
+def handle_text(message):
+    response = openai.Completion.create(
+        engine = "text-davinci-003",
+        prompt = f"{message.text}",
+        max_tokens = 1024,
+        n = 1,
+        stop = None,
+        temperature = 0.5,
+    )
+    bot.send_message(message.chat.id, response.choices[0].text)
 
-# Токен бота
-TOKEN = '6122592866:AAF1vfrccpPgrM4DQBqXD6rx1IWtaLXS9qk'
-
-# Создаем объект updater
-updater = Updater(TOKEN)
-
-# Получаем объект диспетчера
-dispatcher = updater.dispatcher
-
-# Добавляем обработчик команды start
-start_handler = CommandHandler('start', start)
-dispatcher.add_handler(start_handler)
-
-# Добавляем обработчик команды find_id
-find_id_handler = CommandHandler('find_id', find_id)
-dispatcher.add_handler(find_id_handler)
-
-# Запускаем бота
-updater.start_polling()
+bot.polling()

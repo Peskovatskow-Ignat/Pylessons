@@ -10,7 +10,7 @@ from fuzzywuzzy import fuzz
 bot = telegram.Bot(token='6122592866:AAF1vfrccpPgrM4DQBqXD6rx1IWtaLXS9qk')
 
 # список пользователей, которым нужно отправить сообщение
-users = [763008655, 809296638, 908009390, 1755846502]
+users = [763008655]
 
 
 async def send_messages():
@@ -43,5 +43,10 @@ def start(m, res=False):
 def start(m, res=False):
     bot.send_message(m.chat.id, 'Короче без обид, но я пока что глупенький')
 
+# Получение сообщений от юзера
+@bot.message_handler(content_types=["text"])
+def handle_text(message):
+    bot.send_message(message.chat.id, "Чтобы узнать меня поближе напиши /menu")
 
-bot.polling(none_stop=True, interval=0)
+
+bot.polling()
