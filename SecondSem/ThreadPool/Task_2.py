@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 def numbers_1(queue, number):
     for i in range(1, number + 1):
-        num = random.randint(1, 1000)
+        num = random.randint(1, 1000000)
         queue.put(num)
 
 

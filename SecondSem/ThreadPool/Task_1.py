@@ -43,6 +43,4 @@ def main():
     kik_stram.start()
 
 
-
-
 main()

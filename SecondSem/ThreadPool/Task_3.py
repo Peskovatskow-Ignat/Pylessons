@@ -25,8 +25,8 @@ def name(queue):
 def create(queue):
     while not queue.empty():
         x = queue.get()
-        with open(f"{x}", "w+") as f:
-            pass
+        with open(f"{x}", "w+"):
+            ...
 
 
 def main():
