@@ -18,6 +18,6 @@ for i in range(12, 12 * 5 + 1):
         'episode': data['episode']
     })
 
-with open('rick_and_morty_characters_data.json', 'w') as f:
+with open('rick_and_morty.json', 'w') as f:
     json.dump(characters_data, f, indent=4)
 
